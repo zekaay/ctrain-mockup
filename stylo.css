@@ -1,0 +1,67 @@
+.topnav{
+	background-color: pink;
+	overflow: hidden;
+}
+
+.topnav a{
+	float: left;
+	color: white;
+	text-align:right; 
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+	align-items: right;
+}
+
+.topnav a.active{
+	background-color: yellow;
+	color:pink;
+}
+.navbar-logo{
+	size: 32px;
+}
+.courses-intro{
+	
+	height: 300px;
+	text-align: center;
+	
+	align-content:  center;
+}
+.row{
+	display: flex;
+	flex-direction: row;
+	align-content: center;
+}
+.col{
+	width: 25px;
+	height: 10px;
+}
+.text-center{
+	text-align: center;
+}
+.btn-custom-primary-normal{
+	border:none;
+	background-color: pink;
+	padding:15px 32px;
+	text-align:center;
+	display:inline-block;
+	font-size:16px;
+	border-radius:5px;
+}
+.row footer-content{
+	display: block;
+}
+.footer {
+	background-color: pink;
+	overflow: hidden;
+	align-content:right; 
+}
+.footer content: {
+	float: left;
+	color: white;
+	text-align:right; 
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+	align-items: right;
+}
